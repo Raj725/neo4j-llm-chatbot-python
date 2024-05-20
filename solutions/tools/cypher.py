@@ -3,8 +3,8 @@ import streamlit as st
 # tag::import[]
 from langchain.chains import GraphCypherQAChain
 
-from llm import llm
-from graph import graph
+from solutions.llm import llm
+from solutions.graph import graph
 # end::import[]
 
 
